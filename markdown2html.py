@@ -1,17 +1,16 @@
 #!/usr/bin/python3
-
 """
-A bash Script that converts a Markdown file to HTML
+This is a script to convert a Markdown file to HTML.
 
-USAGE:
-    ./markdown2html.py [input file] [output_file]
+Usage:
+    ./markdown2html.py [input_file] [output_file]
 
 Arguments:
     input_file: the name of the Markdown file to be converted
     output_file: the name of the output HTML file
 
-Usage:
-    ./markdown2html README.md README.html
+Example:
+    ./markdown2html.py README.md README.html
 """
 
 import argparse
